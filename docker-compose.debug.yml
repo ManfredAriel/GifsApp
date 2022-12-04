@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  02gifsapp:
+    image: 02gifsapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
